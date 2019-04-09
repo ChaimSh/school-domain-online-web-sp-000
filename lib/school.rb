@@ -7,4 +7,9 @@ def initialize(name)
   @roster = {}
 end
 
+def add_student(name, grade)
+hash["#{name}"] = []
+hash << ["#{grade}"]
+end
+
 end
