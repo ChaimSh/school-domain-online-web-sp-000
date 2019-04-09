@@ -13,6 +13,6 @@ roster[grade] << name
 end
 
 def grade(grade)
-roster.keys
+roster.value
 end
 end
