@@ -9,7 +9,7 @@ end
 
 def add_student(name, grade)
 hash["#{name}"] = []
-hash << ["#{grade}"]
+hash["#{name}"] << ["#{grade}"]
 end
 
 end
