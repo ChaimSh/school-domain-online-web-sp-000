@@ -8,7 +8,7 @@ def initialize(name)
 end
 
 def add_student(name, grade)
-hash[] = []
+hash{} = []
 hash["#{name}"] << ["#{grade}"]
 end
 
