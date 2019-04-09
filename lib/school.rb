@@ -12,4 +12,6 @@ roster[grade] ||= []
 roster[grade] << name
 end
 
+def grade(grade)
+roster.keys
 end
