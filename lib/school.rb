@@ -15,3 +15,4 @@ end
 def grade(grade)
 roster.keys
 end
+end
